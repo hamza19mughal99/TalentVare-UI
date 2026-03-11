@@ -1,0 +1,175 @@
+.find-jobs-page {
+    .header-section {
+
+        border-bottom: 1px solid #E9ECEF;
+        padding-bottom: 20px;
+
+        .greeting-text {
+            font-size: 22px;
+            font-weight: 400;
+            color: #333333;
+            letter-spacing: 0px;
+
+            span {
+                color: #0154AA;
+            }
+        }
+
+        .subtitle-text {
+            font-size: 14px;
+            color: #585D6E;
+            font-weight: 500;
+            letter-spacing: 0px;
+            line-height: 100%;
+        }
+
+        .search-filter-card {
+            background-color: #ffffff;
+            border-radius: 10px;
+            padding: 10px 15px;
+            border: 1px solid #FFFFFF;
+
+            .filter-input-group {
+                .search-input {
+                    font-size: 14px;
+                    color: #585D6E;
+                    padding: 0;
+                    font-weight: 500;
+
+                    &::placeholder {
+                        color: #585D6E;
+                    }
+
+                    &:focus {
+                        box-shadow: none;
+                        outline: none;
+                    }
+                }
+            }
+
+            .divider {
+                height: 36px;
+                width: 1px;
+                background-color: #E9ECEF;
+                margin: 0 16px;
+            }
+
+            .filter-dropdown-group {
+                width: 170px;
+                cursor: pointer;
+                padding: 8px 0;
+
+                .dropdown-label {
+                    font-size: 14px;
+                    color: #585D6E !important;
+                    user-select: none;
+                    font-weight: 500;
+                }
+
+                .dropdown-icon {
+                    margin-left: auto;
+                    color: #737A91;
+
+                    path {
+                        fill: #737A91;
+                    }
+                }
+            }
+
+            .search-btn-container {
+                .search-btn {
+                    background-color: #0056B3;
+                    border-color: #0056B3;
+                    font-size: 15px;
+                    font-weight: 500;
+                    padding: 8px 24px;
+                    border-radius: 8px;
+
+                    &:hover {
+                        background-color: #0154AA;
+                        border-color: #0154AA;
+                    }
+
+                    svg path {
+                        stroke: #ffffff !important;
+                    }
+                }
+            }
+
+            @media (max-width: 991px) {
+                flex-direction: column;
+                align-items: stretch !important;
+                padding: 16px;
+
+                .divider {
+                    width: auto;
+                    height: 1px;
+                    margin: 12px 0;
+                }
+
+                .filter-dropdown-group {
+                    width: 100%;
+                }
+
+                .search-btn-container {
+                    margin-left: 0 !important;
+                    margin-top: 16px;
+
+                    .search-btn {
+                        width: 100%;
+                    }
+                }
+            }
+        }
+
+        .similar-tags-container {
+            .similar-label {
+                font-size: 15px;
+                color: #737A91 !important;
+                font-weight: 500;
+            }
+
+            .tag-btn {
+                background-color: transparent;
+                border: 1px solid #737A91;
+                border-radius: 6px;
+                color: #737A91;
+                font-size: 13px;
+                padding: 8px 15px;
+                transition: all 0.2s ease;
+                font-weight: 500;
+
+                &:hover {
+                    background-color: #F4F4F4;
+                    color: #333333;
+                }
+            }
+        }
+    }
+
+    .job-listing-section {
+
+        border-bottom: 1px solid #E9ECEF;
+        padding-bottom: 20px;
+        margin-bottom: 15px;
+
+        .section-header {
+            .section-title {
+                font-size: 18px;
+                font-weight: 500;
+                color: #333333;
+            }
+
+            .section-link {
+                font-size: 14px;
+                color: #0154AA;
+                font-weight: 500;
+                text-decoration: underline;
+
+                &:hover {
+                    text-decoration: underline !important;
+                }
+            }
+        }
+    }
+}
