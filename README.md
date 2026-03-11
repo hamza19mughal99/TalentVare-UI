@@ -16,7 +16,6 @@ src/
 ├── layout/         # Higher-level layout wrappers (MainLayout)
 ├── pages/          # Full page views (FindJobs)
 ├── styles/         # Global SCSS stylesheets and font face declarations
-├── util/           # Helper functions and utilities
 ├── App.jsx         # Root application component and router configuration
 └── main.jsx        # React DOM entry point
 ```
