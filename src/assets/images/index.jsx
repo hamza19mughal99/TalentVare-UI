@@ -1,5 +1,5 @@
 import mainLogo from "./mainLogo.svg";
-import profileImg from "./userImg.svg";
+import profileImg from "./userImg.jpg";
 import userProfileCoverImg from "./userProfileCoverImg.svg";
 import userProfileImg from "./userProfileImg.svg";
 
